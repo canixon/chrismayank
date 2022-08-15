@@ -5,9 +5,20 @@ public class Customer {
 	private String name;
 	private String password;
 	private String email;
-	public Customer(long l, String string, String string2, String string3) {
-		// TODO Auto-generated constructor stub
+	
+	
+	public Customer() {
+		super();
 	}
+
+	public Customer(long id, String name, String password, String email) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.password = password;
+		this.email = email;
+	}
+
 	public long getId() {
 		return id;
 	}
